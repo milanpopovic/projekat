@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Aplikacija</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="app.js"></script>
+  <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+  <p class="naslov">P O R U K E</p>
+  <div id="forma-login">
+    <p><input id="korisnik" placeholder="Korisnik"></p>
+    <p><input id="pin" placeholder="PIN"></p>
+    <p><button id="logovanje">Login</button> <button id="registracija">Registracija</button></p>
+  </div>
+
+  <div id="forma-operacije" style="visibility:hidden">
+    <button id="nova-poruka">Nova poruka</button> <button id="in">Inbox</button> <button id="out">Outbox</button>
+  </div>
+  
+  <div id="forma-poruka" style="visibility:hidden">
+    <br>
+    <input id="primalac" placeholder="Primalac" size=40><br>
+    <input id="poruka" placeholder="Poruka" size=40><br>
+    <button id="posalji">Pošalji</button> <button id="odustani">Odustani</button>
+  </div> 
+
+  <div id="upozorenje"></div>
+  <div id="poruke"></div>
+</body>
+</html>

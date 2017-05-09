@@ -1,0 +1,38 @@
+#forma-operacije{
+  position: fixed;
+  top: 50px
+}
+#forma-poruka{
+  position: fixed;
+  top: 60px
+}
+
+#poruke {
+  position: fixed;
+  top: 70px
+}
+#nova-poruka, #in, #out, #logovanje, #registracija{
+  background: blue;
+  color: white;
+  font-weight: bold;
+}
+#posalji, #odustani {
+  background: green;
+  color: white;
+  font-weight: bold;
+}
+#upozorenje{
+  color: red;
+  position: fixed;
+  top: 160px
+}
+
+.ime {
+  font-weight: bold;
+}
+
+.naslov{
+  color: blue;
+  font-size: large;
+  font-weight: bold
+}
